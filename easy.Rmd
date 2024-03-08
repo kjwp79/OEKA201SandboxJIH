@@ -11,7 +11,7 @@ sum(numbers)
 
 ### Todos 2
 ```{r}
-# help(sqrt)
+# print(help(sqrt))
 ```
 
 ### Todos 3
