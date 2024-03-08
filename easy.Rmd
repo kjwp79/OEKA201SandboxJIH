@@ -1,0 +1,76 @@
+
+## Introduction
+
+## R-code
+
+### Todos 1
+```{r}
+numbers <- c(4,5,8,11)
+sum(numbers)
+```
+
+### Todos 2
+```{r}
+# help(sqrt)
+```
+
+### Todos 3
+```{r}
+rnorm(n=100, mean = 0, sd = 1)
+```
+
+### Todos 4
+```{r}
+now <- as.numeric(substring(paste(Sys.Date()),1,4))
+started <- 2020
+born <- 1995
+spent <- (now-started)/(now-born)*100
+round(spent, digits=4)
+```
+
+
+
+**the text here should be bould** and not bold here
+
+*text italix* more text here
+
+[Quarto](https://quarto.org)
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+
+
+
+Inline euations $x=f(N,K)$ more text afterwards
+
+$$
+Y=C+I+G
+$$
+
+
+$$
+123=\frac{\theta}{\gamma}
+$$
+
+
+
+
+
+
+
+[![Caption](elep.jpeg)](https://quarto.org)
+
+
+
+
+
+
+
+
+
+
+
