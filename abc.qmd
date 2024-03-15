@@ -1,0 +1,10 @@
+
+# Bjørnar's dataset
+
+## Descriptive statisics
+
+```{r, echo=F}
+library(OEKA201Assignment)
+summary(newcars)
+```
+
