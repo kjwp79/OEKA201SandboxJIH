@@ -22,7 +22,17 @@ ps3eqmed <- price ~ size
 # Formula class objects in R
 # 2. Data import and transformations
 # Import data
+# Import data
+HousePrice <- OEKA201WASMP::HousePrice
+head(HousePrice,5)
+# names(advertising)
 # Data transformations
+# Data transformations
+data_ps3 <- HousePrice %>%
+  # Take out the data
+  dplyr::select(price,bathrooms,size)
+head(data_ps3)
+# View the 10 first observations
 # 3. Descriptiv statistics (graphical and numerical)
 # 4. Model estimations
 # 5. Results
@@ -41,6 +51,21 @@ ps5eqmlh <- "ln Y_i=\beta_0+\beta_1 ln X_i  + u_i"
 # Formula class objects in R
 # Formula class objects in R
 # 2. Data import and transformations
+# Import data
+adverticing <- OEKA201WASMP::adverticing
+# Data transformations
+data_ps5 <- adverticing %>%
+  dplyr::select(impress,adexp) %>%
+  # We can insert comments her
+  dplyr::rename(Y=impress) %>%
+  dplyr::rename(X=adexp) %>%
+  # We can insert comments her
+  dplyr::mutate(X2=X*X) %>%
+  dplyr::mutate(X3=X*X*X) %>%
+  dplyr::mutate(lnX=log(X)) %>%
+  dplyr::mutate(lny=log(Y))
+# View the 10 first observations
+head(data_ps5,n=5)
 # 3. Descriptiv statistics (graphical and numerical)
 # 4. Model estimations
 # 5. Results
