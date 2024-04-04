@@ -4,11 +4,30 @@ format: html
 ---
 
 ```{r}
-source("lecture5_script.R")
+# source("lecture5_script.R")
+```
+
+## Exercise 1
+
+b)
+Estimate the model
+
+$$
+price_i=\beta_0+\beta_1 bathrooms_i + u_i
+$$
+
+
+
+```{r}
+knitr::knit_exit()
 ```
 
 
+
+
 # Abc
+
+
 
 Inline equation $\theta$
 
