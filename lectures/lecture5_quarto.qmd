@@ -1,0 +1,18 @@
+---
+title: "lecture_5"
+format: html
+---
+
+```{r}
+source("lecture5_script.R")
+```
+
+
+# Abc
+
+Inline equation $\theta$
+
+Equation 
+$$
+\theta
+$$

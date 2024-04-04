@@ -1,0 +1,17 @@
+{
+  "hash": "07c0b74f68c454614aadc016af9b8ed1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"lecture_5\"\nformat: html\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(\"lecture5_script.R\")\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'dplyr'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nLoading required package: zoo\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'zoo'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nRegistered S3 method overwritten by 'quantmod':\n  method            from\n  as.zoo.data.frame zoo \n```\n\n\n:::\n:::\n\n\n\n\n# Abc\n\nInline equation $\\theta$\n\nEquation \n$$\n\\theta\n$$\n",
+    "supporting": [
+      "lecture5_quarto_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
