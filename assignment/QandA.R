@@ -10,7 +10,7 @@
 # 4. Model estimations
 # 5. Results
 ##################################################################################################################
-## Exercise 1: ###
+## Exercise 2: ###
 # 1. Model specifications
 # Markdown syntax
 # Formula class objects in R
