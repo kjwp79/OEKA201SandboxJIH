@@ -1,0 +1,17 @@
+{
+  "hash": "0cff626bc20de751bdd98b5a9a234d5f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Assignment part 2: Questions and answers\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(\"assignmentQandA.R\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"Hello\"\n```\n\n\n:::\n:::\n\n\n\n\n# Abc\n\n\n# Def\n\n\n# Ghi\n",
+    "supporting": [
+      "assignment_QandA_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

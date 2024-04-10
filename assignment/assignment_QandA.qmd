@@ -1,0 +1,17 @@
+---
+title: "Assignment part 2: Questions and answers"
+---
+
+
+```{r}
+source("assignmentQandA.R")
+```
+
+
+# Abc
+
+
+# Def
+
+
+# Ghi
