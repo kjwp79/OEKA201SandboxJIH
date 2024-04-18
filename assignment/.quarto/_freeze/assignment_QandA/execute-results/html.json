@@ -1,8 +1,8 @@
 {
-  "hash": "0cff626bc20de751bdd98b5a9a234d5f",
+  "hash": "8201f79de74004b09e5fa9199eb518d6",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Assignment part 2: Questions and answers\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(\"assignmentQandA.R\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"Hello\"\n```\n\n\n:::\n:::\n\n\n\n\n# Abc\n\n\n# Def\n\n\n# Ghi\n",
+    "markdown": "---\ntitle: \"Title for part2 goes here\"\nauthor:\n  - name: Jørn I. Halvorsen\n    id: JIH\n  - name: Irina Nikolskaja Roddvik\n    id: IR\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(\"assignmentQandA.R\")\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'dplyr'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n\n\n:::\n:::\n\n\n\nModel 1\n$$price_i=\\beta_0+\\beta_1 mileage_i + u_i$$\n\nModel 2\n$$price_i=\\beta_0+\\beta_1 mileage_i+ \\beta_2 mileage_i^2 + u_i$$\n\n# Section \n## Subsection \n\n\n# Results\n## Subsection \n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ntidres1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 2 × 5\n  term         estimate std.error statistic  p.value\n  <chr>           <dbl>     <dbl>     <dbl>    <dbl>\n1 (Intercept) 18226.    1323.         13.8  1.46e-16\n2 mileage        -0.108    0.0419     -2.58 1.38e- 2\n```\n\n\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nglares1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 1 × 12\n  r.squared adj.r.squared sigma statistic p.value    df logLik   AIC   BIC\n      <dbl>         <dbl> <dbl>     <dbl>   <dbl> <dbl>  <dbl> <dbl> <dbl>\n1     0.146         0.124 6085.      6.66  0.0138     1  -414.  835.  840.\n# ℹ 3 more variables: deviance <dbl>, df.residual <int>, nobs <int>\n```\n\n\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::knit_exit()\n```\n:::\n",
     "supporting": [
       "assignment_QandA_files"
     ],

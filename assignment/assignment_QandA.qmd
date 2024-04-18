@@ -1,5 +1,10 @@
 ---
-title: "Assignment part 2: Questions and answers"
+title: "Title for part2 goes here"
+author:
+  - name: Jørn I. Halvorsen
+    id: JIH
+  - name: Irina Nikolskaja Roddvik
+    id: IR
 ---
 
 
@@ -7,11 +12,29 @@ title: "Assignment part 2: Questions and answers"
 source("assignmentQandA.R")
 ```
 
+Model 1
+$$`r ex1mod1la`$$
 
-# Abc
+Model 2
+$$`r ex2mod1la`$$
+
+# Section 
+## Subsection 
 
 
-# Def
+# Results
+## Subsection 
+
+```{r}
+tidres1
+```
+
+```{r}
+glares1
+```
 
 
-# Ghi
+```{r}
+knitr::knit_exit()
+```
+
