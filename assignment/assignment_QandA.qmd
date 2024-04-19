@@ -17,16 +17,17 @@ source("assignmentQandA.R")
 
 Would like to refer to [@wickham2023r] abc
 
-Model 1
+Model 1: One variable and linear
 $$`r ex1mod1la`$$
 
-Model 2
+Model 2: Two variables and non-linear
 $$`r ex2mod1la`$$
 
 # Data 
 
 # Results
 
+## Estimations
 
 ```{r}
 tidres1
@@ -36,7 +37,22 @@ tidres1
 glares1
 ```
 
-# Predictions
+## Predictions
+
+```{r}
+pred_1 
+```
+
+- The first predicted value equal to `r paste(pred_1[1])`
+- The second predicted value equal to `r paste(pred_1[2])`
+- ...
+
+
+
+
+```{r}
+pred_2
+```
 
 # Appendix
 

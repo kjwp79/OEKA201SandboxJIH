@@ -174,14 +174,16 @@ Attaching package: 'dplyr'</code></pre>
 <section id="inroduction" class="level1">
 <h1>Inroduction</h1>
 <p>Would like to refer to <span class="citation" data-cites="wickham2023r">(<a href="#ref-wickham2023r" role="doc-biblioref">Wickham, Çetinkaya-Rundel, and Grolemund 2023</a>)</span> abc</p>
-<p>Model 1 <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i + u_i\]</span></p>
-<p>Model 2 <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i+ \beta_2 mileage_i^2 + u_i\]</span></p>
+<p>Model 1: One variable and linear <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i + u_i\]</span></p>
+<p>Model 2: Two variables and non-linear <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i+ \beta_2 mileage_i^2 + u_i\]</span></p>
 </section>
 <section id="data" class="level1">
 <h1>Data</h1>
 </section>
 <section id="results" class="level1">
 <h1>Results</h1>
+<section id="estimations" class="level2">
+<h2 class="anchored" data-anchor-id="estimations">Estimations</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>tidres1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -203,13 +205,33 @@ Attaching package: 'dplyr'</code></pre>
 </div>
 </div>
 </section>
-<section id="predictions" class="level1">
-<h1>Predictions</h1>
+<section id="predictions" class="level2">
+<h2 class="anchored" data-anchor-id="predictions">Predictions</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>pred_1 </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        1         2         3         4 
+18220.743 16593.372 15849.341  4122.125 </code></pre>
+</div>
+</div>
+<ul>
+<li>The first predicted value equal to 18220.743</li>
+<li>The second predicted value equal to 16593.372</li>
+<li>…</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pred_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        1         2         3         4 
+19865.213 16537.906 15205.588  9865.851 </code></pre>
+</div>
+</div>
+</section>
 </section>
 <section id="appendix" class="level1">
 <h1>Appendix</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"images/price_mileage.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"images/price_mileage.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div id="fig-mod1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -225,10 +247,10 @@ Figure&nbsp;1: Model1
 </div>
 <p><a href="#fig-mod1" class="quarto-xref">Figure&nbsp;1</a> shows GRETL output …</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># predict()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># predict()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 </section>
