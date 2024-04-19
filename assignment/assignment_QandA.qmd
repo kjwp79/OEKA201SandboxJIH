@@ -39,7 +39,18 @@ glares1
 # Predictions
 
 # Appendix
-![](images/price_mileage.png){width=50%}
+
+```{r}
+#| label: fig-mod1
+#| fig-cap: 'Model1'
+knitr::include_graphics("images/price_mileage.png")
+```
+
+@fig-mod1 shows GRETL output ...
+
+```{r}
+# predict()
+```
 
 ```{r}
 knitr::knit_exit()
