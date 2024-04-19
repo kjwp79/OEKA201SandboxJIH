@@ -9,7 +9,7 @@
 <meta name="author" content="Jørn I. Halvorsen">
 <meta name="author" content="Irina Nikolskaja Roddvik">
 
-<title>Title for part2 goes here</title>
+<title>Sketch for assignment using exercise 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,7 +56,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="assignment_QandA_files/libs/clipboard/clipboard.min.js"></script>
@@ -110,7 +130,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Title for part2 goes here</h1>
+<h1 class="title">Sketch for assignment using exercise 1</h1>
 </div>
 
 
@@ -151,18 +171,17 @@ Attaching package: 'dplyr'</code></pre>
     intersect, setdiff, setequal, union</code></pre>
 </div>
 </div>
+<section id="inroduction" class="level1">
+<h1>Inroduction</h1>
+<p>Would like to refer to <span class="citation" data-cites="wickham2023r">(<a href="#ref-wickham2023r" role="doc-biblioref">Wickham, Çetinkaya-Rundel, and Grolemund 2023</a>)</span> abc</p>
 <p>Model 1 <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i + u_i\]</span></p>
 <p>Model 2 <span class="math display">\[price_i=\beta_0+\beta_1 mileage_i+ \beta_2 mileage_i^2 + u_i\]</span></p>
-<section id="section" class="level1">
-<h1>Section</h1>
-<section id="subsection" class="level2">
-<h2 class="anchored" data-anchor-id="subsection">Subsection</h2>
 </section>
+<section id="data" class="level1">
+<h1>Data</h1>
 </section>
 <section id="results" class="level1">
 <h1>Results</h1>
-<section id="subsection-1" class="level2">
-<h2 class="anchored" data-anchor-id="subsection-1">Subsection</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>tidres1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -183,13 +202,24 @@ Attaching package: 'dplyr'</code></pre>
 # ℹ 3 more variables: deviance &lt;dbl&gt;, df.residual &lt;int&gt;, nobs &lt;int&gt;</code></pre>
 </div>
 </div>
+</section>
+<section id="predictions" class="level1">
+<h1>Predictions</h1>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<p><img src="images/price_mileage.png" class="img-fluid" style="width:50.0%"></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-wickham2023r" class="csl-entry" role="listitem">
+Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. <em>R for Data Science</em>. " O’Reilly Media, Inc.".
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

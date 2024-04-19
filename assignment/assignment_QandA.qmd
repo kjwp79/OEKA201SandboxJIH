@@ -1,10 +1,11 @@
 ---
-title: "Title for part2 goes here"
+title: "Sketch for assignment using exercise 1"
 author:
   - name: Jørn I. Halvorsen
     id: JIH
   - name: Irina Nikolskaja Roddvik
     id: IR
+bibliography: abc.bib
 ---
 
 
@@ -12,18 +13,20 @@ author:
 source("assignmentQandA.R")
 ```
 
+# Inroduction
+
+Would like to refer to [@wickham2023r] abc
+
 Model 1
 $$`r ex1mod1la`$$
 
 Model 2
 $$`r ex2mod1la`$$
 
-# Section 
-## Subsection 
-
+# Data 
 
 # Results
-## Subsection 
+
 
 ```{r}
 tidres1
@@ -33,6 +36,10 @@ tidres1
 glares1
 ```
 
+# Predictions
+
+# Appendix
+![](images/price_mileage.png){width=50%}
 
 ```{r}
 knitr::knit_exit()
